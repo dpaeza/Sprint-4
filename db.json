@@ -1,0 +1,935 @@
+{
+  "municipios": [
+    {
+      "id": 1,
+      "municipio": "medellín"
+    },
+    {
+      "id": 2,
+      "municipio": "abejorral"
+    },
+    {
+      "id": 3,
+      "municipio": "abriaquí"
+    },
+    {
+      "id": 4,
+      "municipio": "alejandría"
+    },
+    {
+      "id": 5,
+      "municipio": "amagá"
+    },
+    {
+      "id": 6,
+      "municipio": "amalfi"
+    },
+    {
+      "id": 7,
+      "municipio": "angelópolis"
+    },
+    {
+      "id": 8,
+      "municipio": "angostura"
+    },
+    {
+      "id": 9,
+      "municipio": "anorí"
+    },
+    {
+      "id": 10,
+      "municipio": "anzá"
+    },
+    {
+      "id": 11,
+      "municipio": "apartadó"
+    },
+    {
+      "id": 12,
+      "municipio": "arboletes"
+    },
+    {
+      "id": 13,
+      "municipio": "argelia"
+    },
+    {
+      "id": 14,
+      "municipio": "armenia"
+    },
+    {
+      "id": 15,
+      "municipio": "barbosa"
+    },
+    {
+      "id": 16,
+      "municipio": "belmira"
+    },
+    {
+      "id": 17,
+      "municipio": "bello"
+    },
+    {
+      "id": 18,
+      "municipio": "betania"
+    },
+    {
+      "id": 19,
+      "municipio": "betulia"
+    },
+    {
+      "id": 20,
+      "municipio": "briceño"
+    },
+    {
+      "id": 21,
+      "municipio": "buriticá"
+    },
+    {
+      "id": 22,
+      "municipio": "cáceres"
+    },
+    {
+      "id": 23,
+      "municipio": "caicedo"
+    },
+    {
+      "id": 24,
+      "municipio": "caldas"
+    },
+    {
+      "id": 25,
+      "municipio": "campamento"
+    },
+    {
+      "id": 26,
+      "municipio": "cañasgordas"
+    },
+    {
+      "id": 27,
+      "municipio": "caracolí"
+    },
+    {
+      "id": 28,
+      "municipio": "caramanta"
+    },
+    {
+      "id": 29,
+      "municipio": "carepa"
+    },
+    {
+      "id": 30,
+      "municipio": "caucasia"
+    },
+    {
+      "id": 31,
+      "municipio": "chigorodó"
+    },
+    {
+      "id": 32,
+      "municipio": "cisneros"
+    },
+    {
+      "id": 33,
+      "municipio": "ciudad bolívar"
+    },
+    {
+      "id": 34,
+      "municipio": "cocorná"
+    },
+    {
+      "id": 35,
+      "municipio": "concepción"
+    },
+    {
+      "id": 36,
+      "municipio": "concordia"
+    },
+    {
+      "id": 37,
+      "municipio": "copacabana"
+    },
+    {
+      "id": 38,
+      "municipio": "dabeiba"
+    },
+    {
+      "id": 39,
+      "municipio": "donmatías"
+    },
+    {
+      "id": 40,
+      "municipio": "ebéjico"
+    },
+    {
+      "id": 41,
+      "municipio": "el bagre"
+    },
+    {
+      "id": 42,
+      "municipio": "el jardín"
+    },
+    {
+      "id": 43,
+      "municipio": "el peñol"
+    },
+    {
+      "id": 44,
+      "municipio": "el retiro"
+    },
+    {
+      "id": 45,
+      "municipio": "el santuario"
+    },
+    {
+      "id": 46,
+      "municipio": "entrerríos"
+    },
+    {
+      "id": 47,
+      "municipio": "envigado"
+    },
+    {
+      "id": 48,
+      "municipio": "fredonia"
+    },
+    {
+      "id": 49,
+      "municipio": "frontino"
+    },
+    {
+      "id": 50,
+      "municipio": "giraldo"
+    },
+    {
+      "id": 51,
+      "municipio": "girardota"
+    },
+    {
+      "id": 52,
+      "municipio": "gómez plata"
+    },
+    {
+      "id": 53,
+      "municipio": "granada"
+    },
+    {
+      "id": 54,
+      "municipio": "guadalupe"
+    },
+    {
+      "id": 55,
+      "municipio": "guarne"
+    },
+    {
+      "id": 56,
+      "municipio": "guatapé"
+    },
+    {
+      "id": 57,
+      "municipio": "heliconia"
+    },
+    {
+      "id": 58,
+      "municipio": "hispania"
+    },
+    {
+      "id": 59,
+      "municipio": "itagüí"
+    },
+    {
+      "id": 60,
+      "municipio": "ituango"
+    },
+    {
+      "id": 61,
+      "municipio": "jericó"
+    },
+    {
+      "id": 62,
+      "municipio": "la ceja"
+    },
+    {
+      "id": 63,
+      "municipio": "la estrella"
+    },
+    {
+      "id": 64,
+      "municipio": "la pintada"
+    },
+    {
+      "id": 65,
+      "municipio": "la unión"
+    },
+    {
+      "id": 66,
+      "municipio": "liborina"
+    },
+    {
+      "id": 67,
+      "municipio": "maceo"
+    },
+    {
+      "id": 68,
+      "municipio": "marinilla"
+    },
+    {
+      "id": 69,
+      "municipio": "montebello"
+    },
+    {
+      "id": 70,
+      "municipio": "murindó"
+    },
+    {
+      "id": 71,
+      "municipio": "mutatá"
+    },
+    {
+      "id": 72,
+      "municipio": "nariño"
+    },
+    {
+      "id": 73,
+      "municipio": "nechí"
+    },
+    {
+      "id": 74,
+      "municipio": "necoclí"
+    },
+    {
+      "id": 75,
+      "municipio": "olaya"
+    },
+    {
+      "id": 76,
+      "municipio": "peque"
+    },
+    {
+      "id": 77,
+      "municipio": "pueblorrico"
+    },
+    {
+      "id": 78,
+      "municipio": "puerto berrio"
+    },
+    {
+      "id": 79,
+      "municipio": "puerto nare"
+    },
+    {
+      "id": 80,
+      "municipio": "puerto triunfo"
+    },
+    {
+      "id": 81,
+      "municipio": "remedios"
+    },
+    {
+      "id": 82,
+      "municipio": "rionegro"
+    },
+    {
+      "id": 83,
+      "municipio": "sabanalarga"
+    },
+    {
+      "id": 84,
+      "municipio": "sabaneta"
+    },
+    {
+      "id": 85,
+      "municipio": "salgar"
+    },
+    {
+      "id": 86,
+      "municipio": "san carlos"
+    },
+    {
+      "id": 87,
+      "municipio": "san francisco"
+    },
+    {
+      "id": 88,
+      "municipio": "san jerónimo"
+    },
+    {
+      "id": 89,
+      "municipio": "san luis"
+    },
+    {
+      "id": 90,
+      "municipio": "san rafael"
+    },
+    {
+      "id": 91,
+      "municipio": "san roque"
+    },
+    {
+      "id": 92,
+      "municipio": "santa bárbara"
+    },
+    {
+      "id": 93,
+      "municipio": "santo domingo"
+    },
+    {
+      "id": 94,
+      "municipio": "segovia"
+    },
+    {
+      "id": 95,
+      "municipio": "sonsón"
+    },
+    {
+      "id": 96,
+      "municipio": "támesis"
+    },
+    {
+      "id": 97,
+      "municipio": "tarazá"
+    },
+    {
+      "id": 98,
+      "municipio": "tarso"
+    },
+    {
+      "id": 99,
+      "municipio": "titiribí"
+    },
+    {
+      "id": 100,
+      "municipio": "toledo"
+    },
+    {
+      "id": 101,
+      "municipio": "turbo"
+    },
+    {
+      "id": 102,
+      "municipio": "uramita"
+    },
+    {
+      "id": 103,
+      "municipio": "urrao"
+    },
+    {
+      "id": 104,
+      "municipio": "valdivia"
+    },
+    {
+      "id": 105,
+      "municipio": "valparaíso"
+    },
+    {
+      "id": 106,
+      "municipio": "vegachí"
+    },
+    {
+      "id": 107,
+      "municipio": "venecia"
+    },
+    {
+      "id": 108,
+      "municipio": "yalí"
+    },
+    {
+      "id": 109,
+      "municipio": "yarumal"
+    },
+    {
+      "id": 110,
+      "municipio": "yolombó"
+    },
+    {
+      "id": 111,
+      "municipio": "yondó"
+    },
+    {
+      "id": 112,
+      "municipio": "zaragoza"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "descuento": 32,
+      "fotoProducto": "./img/limon.png",
+      "precioConDescuento": 26.82,
+      "precio": 39.9,
+      "nombre": "Limon con Semilla",
+      "favorito": true,
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 2,
+      "descuento": 32,
+      "fotoProducto": "./img/tomate.png",
+      "precioConDescuento": 21.79,
+      "precio": 32.9,
+      "nombre": "Tomate",
+      "favorito": true,
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 3,
+      "descuento": 18,
+      "fotoProducto": "./img/aguacate.png",
+      "precioConDescuento": 56.8,
+      "precio": 69.9,
+      "nombre": "Aguacate Hass",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 4,
+      "descuento": 13,
+      "fotoProducto": "./img/nopal.png",
+      "precioConDescuento": 25.8,
+      "precio": 29.9,
+      "nombre": "Nopal limpio",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 5,
+      "descuento": 8,
+      "fotoProducto": "./img/tomateVerde.png",
+      "precioConDescuento": 22.89,
+      "precio": 24.9,
+      "nombre": "Tomate verde sin cascara",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 6,
+      "descuento": 10,
+      "fotoProducto": "./img/melon.png",
+      "precioConDescuento": 45.5,
+      "precio": 50.5,
+      "nombre": "Melon",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 7,
+      "descuento": "",
+      "fotoProducto": "./img/fresa.jpeg",
+      "precioConDescuento": "",
+      "precio": 50.5,
+      "nombre": "Fresa",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 8,
+      "descuento": "",
+      "fotoProducto": "./img/banano.jpg",
+      "precioConDescuento": "",
+      "precio": 30.2,
+      "nombre": "Banano",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 9,
+      "descuento": "",
+      "fotoProducto": "./img/papaya.jpg",
+      "precioConDescuento": "",
+      "precio": 30.58,
+      "nombre": "Papaya",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 10,
+      "descuento": "",
+      "fotoProducto": "./img/maracuya.jpg",
+      "precioConDescuento": "",
+      "precio": 80.68,
+      "nombre": "Maracuya",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 11,
+      "descuento": "",
+      "fotoProducto": "./img/nispero.jpg",
+      "precioConDescuento": "",
+      "precio": 50.64,
+      "nombre": "Nispero",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 12,
+      "descuento": "",
+      "fotoProducto": "./img/granadilla.jpg",
+      "precioConDescuento": "",
+      "precio": 40.89,
+      "nombre": "Granadilla",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 13,
+      "descuento": "",
+      "fotoProducto": "./img/pomelo.jpg",
+      "precioConDescuento": "",
+      "precio": 31.25,
+      "nombre": "Pomelo",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 14,
+      "descuento": "",
+      "fotoProducto": "./img/piña.jpg",
+      "precioConDescuento": "",
+      "precio": 67.89,
+      "nombre": "Piña",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 15,
+      "descuento": "",
+      "fotoProducto": "./img/uchuva.jpg",
+      "precioConDescuento": "",
+      "precio": 25.67,
+      "nombre": "Uchuva",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 16,
+      "descuento": "",
+      "fotoProducto": "./img/uvaMorada.jpg",
+      "precioConDescuento": "",
+      "precio": 65.98,
+      "nombre": "Uva morada",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 17,
+      "descuento": "",
+      "fotoProducto": "./img/uvaVerde.jpg",
+      "precioConDescuento": "",
+      "precio": 65.98,
+      "nombre": "Uva verde",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 18,
+      "descuento": "",
+      "fotoProducto": "./img/guanabana.jpg",
+      "precioConDescuento": "",
+      "precio": 59.46,
+      "nombre": "Guanabana",
+      "favorito": "",
+      "categoria": "frutas",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 19,
+      "descuento": 19,
+      "fotoProducto": "./img/cebollaRoja.jpg",
+      "precioConDescuento": 25.9,
+      "precio": 31.98,
+      "nombre": "Cebolla Morada",
+      "favorito": "",
+      "categoria": "verduras",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 20,
+      "descuento": 19,
+      "fotoProducto": "./img/cebollaBlanca.jpg",
+      "precioConDescuento": 25.9,
+      "precio": 31.98,
+      "nombre": "Cebolla Blanca",
+      "favorito": "",
+      "categoria": "verduras",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 21,
+      "descuento": 15,
+      "fotoProducto": "./img/lechugaCrespaVerde.png",
+      "precioConDescuento": 26.33,
+      "precio": 30.98,
+      "nombre": "Lechuga crespa verde",
+      "favorito": "",
+      "categoria": "verduras",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 22,
+      "descuento": 15,
+      "fotoProducto": "./img/lechugaCrespaMorada.jpg",
+      "precioConDescuento": 26.33,
+      "precio": 30.98,
+      "nombre": "Lechuga crespa morada",
+      "favorito": "",
+      "categoria": "verduras",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 23,
+      "descuento": "",
+      "fotoProducto": "./img/espinaca.jpg",
+      "precioConDescuento": "",
+      "precio": 78.98,
+      "nombre": "Espinaca",
+      "favorito": "",
+      "categoria": "verduras",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 24,
+      "descuento": "",
+      "fotoProducto": "./img/zanahoria.jpg",
+      "precioConDescuento": "",
+      "precio": 41.99,
+      "nombre": "Zanahoria",
+      "favorito": "",
+      "categoria": "verduras",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 25,
+      "descuento": "",
+      "fotoProducto": "./img/brocoli.jpg",
+      "precioConDescuento": "",
+      "precio": 65.99,
+      "nombre": "Brocoli",
+      "favorito": "",
+      "categoria": "verduras",
+      "madurez": "",
+      "contenido": "",
+      "unidadContenido": ""
+    },
+    {
+      "id": 26,
+      "descuento": "",
+      "fotoProducto": "./img/pavo.png",
+      "precioConDescuento": "",
+      "precio": 62.5,
+      "nombre": "San Rafael pechuga de pavo",
+      "favorito": "",
+      "categoria": "carnesFrias",
+      "contenido": 250,
+      "unidadContenido": "g"
+    },
+    {
+      "id": 27,
+      "descuento": "",
+      "fotoProducto": "./img/panBimbo.png",
+      "precioConDescuento": "",
+      "precio": 38.9,
+      "nombre": "Bimbo Pan Blanco Grande",
+      "favorito": "",
+      "categoria": "panes",
+      "contenido": 680,
+      "unidadContenido": "g"
+    },
+    {
+      "id": 28,
+      "descuento": "",
+      "fotoProducto": "./img/mayonesa.png",
+      "precioConDescuento": "",
+      "precio": 48.5,
+      "nombre": "Mc Cormick Mayonesa",
+      "favorito": "",
+      "categoria": "salsasYaderezos",
+      "contenido": 680,
+      "unidadContenido": "g"
+    },
+    {
+      "id": 29,
+      "descuento": "",
+      "fotoProducto": "./img/cremaDental.png",
+      "precioConDescuento": "",
+      "precio": 35.5,
+      "nombre": "Colgate Pasta Dental Triple Familiar 2 U",
+      "favorito": "",
+      "categoria": "aseo",
+      "contenido": 125,
+      "unidadContenido": "ml"
+    },
+    {
+      "id": 30,
+      "descuento": "",
+      "fotoProducto": "./img/huevos.png",
+      "precioConDescuento": "",
+      "precio": 37.5,
+      "nombre": "Huevos San Juan",
+      "favorito": "",
+      "categoria": "huevosYlacteos",
+      "contenido": 18,
+      "unidadContenido": "Und"
+    },
+    {
+      "id": 31,
+      "descuento": "",
+      "fotoProducto": "./img/lecheColanta.jpg",
+      "precioConDescuento": "",
+      "precio": 200,
+      "nombre": "Leche colanta 1000 ml",
+      "favorito": "",
+      "categoria": "huevosYlacteos",
+      "contenido": 1000,
+      "unidadContenido": "ml"
+    },
+    {
+      "id": 32,
+      "descuento": "",
+      "fotoProducto": "./img/lechePolvo.jpg",
+      "precioConDescuento": "",
+      "precio": 150,
+      "nombre": "Leche en polvo Colanta",
+      "favorito": "",
+      "categoria": "huevosYlacteos",
+      "contenido": 200,
+      "unidadContenido": "g"
+    },
+    {
+      "id": 33,
+      "descuento": 10,
+      "fotoProducto": "./img/jabonDove.jpg",
+      "precioConDescuento": 36.45,
+      "precio": 40.5,
+      "nombre": "Jabon Dove",
+      "favorito": "",
+      "categoria": "aseo",
+      "contenido": 90,
+      "unidadContenido": "g"
+    },
+    {
+      "id": 34,
+      "descuento": "",
+      "fotoProducto": "./img/fabuloso.jpg",
+      "precioConDescuento": "",
+      "precio": 15.65,
+      "nombre": "Limpiador multiusos Fabuloso",
+      "favorito": "",
+      "categoria": "aseo",
+      "contenido": 2,
+      "unidadContenido": "L"
+    },
+    {
+      "id": 35,
+      "descuento": "",
+      "fotoProducto": "./img/ph.png",
+      "precioConDescuento": "",
+      "precio": 85.99,
+      "nombre": "Papel Higienico Familia 4 unidades",
+      "favorito": "",
+      "categoria": "aseo",
+      "contenido": 4,
+      "unidadContenido": "Und"
+    },
+    {
+      "id": 36,
+      "descuento": "",
+      "fotoProducto": "./img/cafe.png",
+      "precioConDescuento": "",
+      "precio": 85.69,
+      "nombre": "Cafe Sello Rojo",
+      "favorito": "",
+      "categoria": "bebidas",
+      "contenido": 500,
+      "unidadContenido": "g"
+    },
+    {
+      "id": 37,
+      "descuento": "",
+      "fotoProducto": "./img/cocacola.png",
+      "precioConDescuento": "",
+      "precio": 500,
+      "nombre": "Cocacola 3L",
+      "favorito": "",
+      "categoria": "bebidas",
+      "contenido": 3,
+      "unidadContenido": "L"
+    },
+    {
+      "id": 38,
+      "descuento": "",
+      "fotoProducto": "./img/aguaGas.jpg",
+      "precioConDescuento": "",
+      "precio": 15,
+      "nombre": "Agua cristal con gas",
+      "favorito": "",
+      "categoria": "bebidas",
+      "contenido": 250,
+      "unidadContenido": "ml"
+    }
+  ]
+}

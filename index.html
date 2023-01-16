@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 4</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="tittleTienda" id="tiendita">Tiendita</h1>
+        <p class="sections" id="productosTitleHeader">Productos</p>
+        <p class="sections" id="favoritosTittleHeader">Favoritos</p>
+        <div class="orden">
+            <p  class="ubicationIcon"></p>
+            <nav class="ubication" id="ubication">Medellín</nav>
+            <p class="ubicationIcondos"></p>
+            <hr size="1px" color="#F4F4F4" class="barrita"/>
+        </div>
+        <div class="ordendos">
+            <button class="carritoButton">
+                <i><img src="./img/carrito.svg" alt="carritoIcon" class="carritoIcon"></i>
+                <p class="carritoItemsContent">5</p>
+            </button>
+        </div>
+    </header>
+
+    <span class="" id="principal">
+
+    <!-- Principal big Image -->
+    <section class="imgBigPrincipalContainer">
+        <p class="imgBigPrincipal">¡Adquiere todos tus productos favoritos al mejor precio!</p>
+    </section>
+
+    <!-- Carousel productos en oferta-->
+    <section class="ofertasContainer">
+        <div class="container-tittle-controls">
+            <h2 class="ofertasTittle">Ofertas</h2>
+        </div>
+        <div class="cardsOfertasContainer">
+            <button id="flechaIzquierda" class="flechaIzquierda"><i class="fa-angle-left"><img src="./img/angle-left-solid.svg" alt="flechaIzquierda"></i></button>
+
+            <div class="contenedorCarrusel" id="contenedorCarrusel">
+                <div class="carousel" id="carousel">
+                    <!-- <div class="cardProducts" id="cardProducts">
+                        <div class="divTop">
+                            <p class="descuento">32% dto</p>
+                            <div class="estrellaContainer"><p class="estrella estrellaActiva">★</p></div>
+                        </div>
+                        <img src="./img/limon.png" alt="imgProducto" class="productImg">
+                        <div class="priceYtitleP">
+                            <div>
+                                <p class="priceDescuento">$26.82/Kg <span class="priceBefore">$39.9/Kg</span></p>
+                                <h2 class="tittleProduct">Limon con semilla</h2>
+                            </div>
+                            <p class="priceperUnit">250g ($250/gr)</p>
+                        </div>
+                        <button type="button" class="agregarButton">Agregar</button>
+                    </div> -->
+                </div>
+            </div>
+            
+            <button id="flechaDerecha" class="flechaDerecha"><i class="fa-angle-right"><img src="./img/angle-right-solid.svg" alt="flechaDerecha"></i></button>
+            
+        </div>
+    </section>
+
+    <!-- Carousel todos los productos-->
+    <section class="ofertasContainer">
+        <div class="container-tittle-controls">
+            <h2 class="ofertasTittle">Todos los Productos</h2>
+        </div>
+        <div class="cardsOfertasContainer">
+            <button id="flechaIzquierdaDos" class="flechaIzquierda"><i class="fa-angle-left"><img
+                        src="./img/angle-left-solid.svg" alt="flechaIzquierda"></i></button>
+            <div class="contenedorCarrusel" id="contenedorCarruselAllProducts">
+                <div class="carousel" id="carouselAllProducts">
+                    <!-- <div class="cardProducts" id="cardProductsAll">
+                        <div class="divTop">
+                            <p class="descuento">32% dto</p>
+                            <div class="estrellaContainer">
+                                <p class="estrella estrellaActiva">★</p>
+                            </div>
+                        </div>
+                        <img src="./img/limon.png" alt="imgProducto" class="productImg">
+                        <div class="priceYtitleP">
+                            <div>
+                                <p class="priceDescuento">$26.82/Kg <span class="priceBefore">$39.9/Kg</span></p>
+                                <h2 class="tittleProduct">Limon con semilla</h2>
+                            </div>
+                            <p class="priceperUnit">250g ($250/gr)</p>
+                        </div>
+                        <button type="button" class="agregarButton">Agregar</button>
+                    </div> -->
+                </div>
+            </div>
+            <button id="flechaDerechaDos" class="flechaDerecha"><i class="fa-angle-right"><img src="./img/angle-right-solid.svg" alt="flechaDerecha"></i></button>
+        </div>
+    </section>
+
+    </span>
+
+    <!-- Pop Up seleccion de Municipio -->
+    <div class="overLayMuni" id="overLayMuni">
+        <div class="popUpMuni">
+            <a href="#" class="xIconMuni"><img src="./img/xIcon.svg" alt="xIcon" id="xImg"></a>
+            <h1 class="tittlePopUp">¿Dónde quieres recibir tu pedido?</h1>
+            <p class="pPopUp">Para poder ofrecerte productos dentro de tu área, necesitamos tu dirección</p>
+            <form action="">
+                <div class="selectBox">
+                    <div class="select" id="selectBox">
+                        <i>
+                            <img src="./img/ubicationIconByN.svg" alt="ubicationIcon" class="uIByN">
+                        </i>
+                        <div class="contentSelect">
+                            <p class="inputMuni" id="inputMuni">Ingresa tu dirección</p>
+                        </div>
+                    </div>
+    
+                    <!-- Opciones.... -->
+                    <div class="opcionesMuni" id="opcionesMuni">
+                        <!-- <a href="#" class="opcionMuni">
+                                <div class="selectdos">
+                                    <i>
+                                        <img src="./img/ubicationIconByN.svg" alt="ubicationIcon" class="uIByN">
+                                    </i>
+                                    <div class="contentSelect">
+                                        <p class="inputMunidos" id="municipioNew">Ingresa tu dirección</p>
+                                    </div>
+                                </div>
+                            </a> -->
+                    </div>
+                </div>
+                <p class="pVerifi" id="pVerifi">Ingresa tu dirección para continuar</p>
+                <button type="submit" class="buscarMuniButton buscarMuniButtonActive" id="buscarMuniButton">Buscar</button>
+            </form>
+        </div>
+    </div>
+
+<!-- Pop up cards -->
+<div class="overLayCard hidden" id="overLayCard">
+    <div class="popUpCard" id="popUpCard">
+        <div class="divCardP">
+            <div class="imgPBig" id="imgPBigB"><img src="./img/aguacate.png" alt="imgBigProduct" class="imgPBigB" ></div>
+            <div class="lateralCardUP">
+                <a href="#" class="xIconMuni"><img src="./img/xIcon.svg" alt="xIcon" id="xImgdos"></a>
+                <h1 class="tittlePopUpCard" id="tittlePopUpCard">Aguacate Hass</h1>
+                <p class="pricePopUp" id="pricePUP">$69.9<span id="unityCardUp">/Kg</span></p>
+                <p class="iva">Precios con IVA incluido</p>
+                <p class="pppp" id="borrarCardUp">c</p>
+                <p class="madurezPopUp" id="chao">Selecciona la madurez que deseas</p>
+                <form action="" id="formPopUp">
+                    <span id="eliminarDelPopUp">
+                    <div>
+                        <div class="selectMadurez" id="selectMadurez">
+                            <div>
+                                <p class="inputMadurez" id="inputMadurez">Por elegir</p>
+                            </div>
+                            <i>
+                                <img src="./img/rowDown.svg" alt="downArrow">
+                            </i>
+                        </div>
+                                        <!-- Opciones... -->
+                        <div class="opcionesMadurez" id="opcionesMadurez">
+                            <a href="#" class="opcionMuni">
+                                <div class="selectAH">
+                                    <p class="inputMadurezDos" id="inputMadurezDos">Maduro (Para hoy)</p>
+                                </div>
+                            </a>
+                            <a href="#" class="opcionMuni">
+                                <div class="selectAH">
+                                    <p class="inputMadurezDos" id="inputMadurezDos">Normal (3-5 días)</p>
+                                </div>
+                            </a>
+                            <a href="#" class="opcionMuni">
+                                <div class="selectAH">
+                                    <p class="inputMadurezDos" id="inputMadurezDos">Verde (7 días)</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="pVerifiM" id="pVerifiM">Elige la Madurez</p>
+                        <div class="divcuatroP">
+                            <div class="selectPeso">
+                                <img src="./img/menos.svg" alt="menos" class="menos">
+                                <p class="peso" id="cantidadP">250g</p>
+                                <img src="./img/mas.svg" alt="mas" class="masu">
+                            </div>
+                            <button type="submit" class="AgregarMuniButton" id="AgregarMuniButton">Agregar</button>
+                        </div>
+                        </span>
+                </form>
+            </div>    
+        </div>
+                        <!-- CAROUSEL PRODUCTOS RELACIONADOS -->
+        <section class="ofertasContainer">
+            <div class="container-tittle-controls">
+                <h2 class="ofertasTittle">Productos relacionados</h2>
+            </div>
+            <div class="cardsOfertasContainer">
+                <button id="flechaIzquierdaTres" class="flechaIzquierda"><i class="fa-angle-left"><img src="./img/angle-left-solid.svg" alt="flechaIzquierda"></i></button>
+                <div class="contenedorCarrusel" id="contenedorCarruselProductosRela">
+                    <div class="carousel" id="carouselProductsRelacionados"> 
+                        <!-- <div class="cardProducts" id="cardProductsAll">
+                            <div class="divTop">
+                                <p class="descuento">32% dto</p>
+                                <div class="estrellaContainer">
+                                    <p class="estrella estrellaActiva">★</p>
+                                </div>
+                            </div>
+                            <img src="./img/limon.png" alt="imgProducto" class="productImg">
+                            <div class="priceYtitleP">
+                                <div>
+                                    <p class="priceDescuento">$26.82/Kg <span class="priceBefore">$39.9/Kg</span></p>
+                                    <h2 class="tittleProduct">Limon con semilla</h2>
+                                </div>
+                                <p class="priceperUnit">250g ($250/gr)</p>
+                            </div>
+                            <button type="button" class="agregarButton">Agregar</button>
+                        </div>  -->
+                    </div>
+                </div>
+                <button id="flechaDerechaTres" class="flechaDerecha"><i class="fa-angle-right"><img src="./img/angle-right-solid.svg" alt="flechaDerecha"></i></button>
+            </div>
+        </section>        
+    </div>
+</div> 
+
+    <!-- PRODUCTOS NAV -->
+    <section id="productosNav" class="allProducts hidden">
+        
+    </section>
+
+
+    <!-- FAVORITOS -->
+    <section id="productosFav" class="hidden">
+    
+    </section>
+
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+</html>

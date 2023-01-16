@@ -1,0 +1,744 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+
+/* Header */
+header{
+    min-height: 88px;
+    padding: 24px 40px;
+    background-color: #FEFEFE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tittleTienda{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 16px;
+    color: #FC462D;
+    width: 20%;
+    cursor: pointer;
+}
+
+.sections{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.sections:hover{
+    color: #FC462D;
+}
+
+.ubicationIcon{
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/Icons.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ubicationIcondos{
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.ubication{
+    color: #332927;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background-color: #FEFEFE;
+    min-height: 24px;
+    margin: 0 10px;
+}
+.ubication:hover{
+    cursor: pointer;
+}
+
+.orden{
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    order: 1;
+}
+
+.orden:hover{
+    cursor: pointer;
+}
+
+.carritoButton{
+    display: flex;
+    width: 89px;
+    height: 40px;
+    background: #0AC763;
+    border-radius: 8px;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    border: none;
+}
+    
+.ordendos{
+    height: auto;
+    order: 2;
+}
+
+.carritoIcon{
+    width: 24px;
+    height: 24px;
+}
+
+.carritoItemsContent{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+}
+
+/* Section Principal big Image */
+.imgBigPrincipalContainer{
+    padding: 40px;
+    width: 100%;
+    
+}
+
+.imgBigPrincipal{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(0deg, rgba(252, 70, 45, 0.24), rgba(252, 70, 45, 0.24)), url(.jpg), #C4C4C4;
+    border-radius: 16px;
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FEFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* Pop Up Selección de Municipio */
+
+.overLayMuni{
+    background-color: rgba(51, 41, 39, .8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    /* transition: 250ms ease-out; */
+}
+
+.overLayMuni.activeMuni{
+    visibility: visible;
+}
+
+.popUpMuni{
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #FEFEFE;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 40px;
+    width: 703px;
+    height: 354px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0, .3);
+}
+
+.xIconMuni{
+    display: block;
+    text-align: right;
+}
+
+
+.tittlePopUp{
+    width: 623px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #332927;
+    align-self: stretch;
+    margin: 24px 0px 16px 0px;
+}
+
+.pPopUp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 623px;
+    height: 24px;
+    color: #332927;
+    align-self: stretch;
+    margin-bottom: 24px;
+}
+
+.select{
+    display: flex;
+    border-radius: 8px;
+    width: 623px;
+    height: 48px;
+    border: 1px solid #B8B4B4;
+    padding: 12px 16px;
+    gap: 8px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.selectdos{
+    display: flex;
+    width: 100%;
+    height: 48px;
+    padding: 12px 16px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.uIByN{
+    width: 24px;
+    height: 24px;
+}
+
+.inputMuni{
+    width: 100%;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #B8B4B4;
+}
+
+.inputMunidos{
+    width: 100%;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #332927;
+}
+
+.opcionesMuni{
+    background: #FEFEFE;
+    border: 1px solid #B8B4B4;
+    border-radius: 16px;
+    max-height: 240px;
+    width: 623px;
+    overflow: auto;
+    z-index: 100;
+    margin-top: 8px;
+    position: fixed;
+    display: none;
+}
+
+.opcionMuni{
+    text-decoration: none;
+}
+
+.activeMuniOpcion{
+    display: block;
+}
+
+.pVerifi{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: red;
+    display: none;
+}
+
+.pVerifiActive{
+    display: block;
+}
+
+.buscarMuniButton{
+    width: 623px;
+    height: 40px;
+    padding: 12px 24px;
+    background: #0AC763;
+    opacity: 0.5;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    border: none;
+    margin-top: 16px;
+}
+
+.buscarMuniButtonActive{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* CONTAINER CARDS OFERTAS */
+.ofertasContainer{
+    margin: 0px 40px 40px 40px;
+    background: #FEFEFE;
+    width: 100%px;
+    height: 560px;
+    box-shadow: 0px 11px 29px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px 0px 40px 40px;
+}
+
+.ofertasTittle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.cardsOfertasContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.flechaIzquierda, .flechaDerecha{
+    position: absolute;
+    border: none;
+    background-color: rgba(253, 253, 253, 0.3);
+    color: #0AC763;
+    width: 50px;
+    height: 20%;
+    line-height: 40px;
+    top: calc(50% -25%);
+    z-index: 2;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.flechaIzquierda:hover, .flechaDerecha:hover{
+    background-color: rgba(253, 253, 253, 0.9);
+}
+
+.flechaIzquierda{
+    left: 0;
+}
+
+.flechaDerecha{
+    right: 0;
+}
+
+.container-tittle-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.contenedorCarrusel{
+    width: 100%;
+    padding: 40px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carousel{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+/* Card Product */
+.cardProducts{
+    width: 194px;
+    flex: none;
+    height: 418px;
+    /* margin-top: 20px;*/
+    margin-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .3s ease all;
+    border-radius: 8px;
+}
+
+.cardProducts:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+.divTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descuento{
+    width: 59px;
+    height: 24px;
+    background: #F0E3FE;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5E18BB;
+    text-align: center;
+    padding: 4px;
+}
+
+.estrellaContainer{
+    background-color: #0AC763;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.estrella{
+    color: #FEFEFE;
+    font-size: 25px;
+}
+
+.estrellaActiva{
+    color: #ffee00;
+}
+
+.productImg{
+    width: 100%;
+    height: 194px;
+    margin: 16px 0px;
+}
+
+.priceYtitleP{
+    width: 100%;
+    height: 112px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.priceDescuento{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #332927;
+    margin-bottom: 8px;
+}
+
+.priceBefore{
+    color: #B8B4B4;
+    text-decoration: line-through;
+}
+
+.tittleProduct{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #332927;
+    cursor: pointer;
+}
+
+.priceperUnit{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B8B4B4;
+}
+
+.agregarButton{
+    width: 100%;
+    height: 40px;
+    background: #0AC763;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    border: none;
+    cursor: pointer;
+}
+
+/* PRODUCTS NAV BAR */
+.allProducts{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+/* POP UP CARDS */
+.overLayCard{
+    background-color: rgba(51, 41, 39, .8);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    visibility: visible;
+    overflow-y: scroll;
+    /* transition: 250ms ease-out; */
+}
+
+.popUpCard{
+    margin-top: 80px;
+    /* margin-left: 40px; */
+    background-color: #FEFEFE;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 40px;
+    width: 1068px;
+    height: 1186px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0, .3);
+}
+
+.divCardP{
+    display: flex;
+    width: 988px;
+    height: 522px;
+    gap: 24px;
+}
+
+.imgPBig{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.imgPBigB{
+    width: 473px;
+    height: 373px;
+}
+
+.lateralCardUP{
+    width: 50%;
+}
+.xIconMuni{
+    display: block;
+    text-align: right;
+}
+
+.imgBigProduct{
+    width: 100%;
+    height: 100%;
+}
+
+.tittlePopUpCard{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #332927;
+    align-self: stretch;
+    margin-top: 50px 0px 16px 0px;
+}
+
+.pricePopUp{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #332927;
+    margin-bottom: 16px;
+}
+
+.iva{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #332927;
+    margin-bottom: 8px;
+}
+
+.pppp{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #332927;
+    margin-bottom: 50px;
+}
+
+.madurezPopUp{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #332927;
+    margin-bottom: 8px;
+}
+
+.selectMadurez{
+    display: flex;
+    border-radius: 8px;
+    width: 442px;
+    height: 48px;
+    border: 1px solid #B8B4B4;
+    padding: 12px 16px;
+    /* gap: 8px; */
+    cursor: pointer;
+    z-index: 200;
+}
+
+.selectAH{
+    width: 100%;
+    height: 48px;
+    padding: 12px 16px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.inputMadurez{
+    width: 378px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #332927;
+}
+
+.inputMadurezDos{
+    width: 100%;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #332927;
+}
+
+.opcionesMadurez{
+    background: #FEFEFE;
+    border: 1px solid #B8B4B4;
+    border-radius: 16px;
+    max-height: 144px;
+    width: 442px;
+    overflow: auto;
+    z-index: 100;
+    margin-top: 8px;
+    position: relative;
+    z-index: 100000000;
+    display: none;
+    overflow-y: hidden;
+}
+
+.opcionMuni{
+    text-decoration: none;
+}
+
+.activeMuniOpcion{
+    display: block;
+}
+
+.pVerifiM{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: red;
+    /* display: none; */
+}
+
+.pVerifiMActive{
+    display: block;
+}
+
+.divcuatroP{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.selectPeso{
+    display: flex;
+    box-shadow: 0px 11px 29px rgba(0, 0, 0, 0.05);
+    width: 167px;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.peso{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #332927;
+}
+
+.AgregarMuniButton{
+    width: 235px;
+    height: 40px;
+    padding: 12px 24px;
+    background: #0AC763;
+    opacity: 0.5;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FEFEFE;
+    border: none;
+}
+
+.AgregarMuniButtonActive{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+/* OCULTAMIENTOS */
+.hidden{
+    display: none;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 906px) {
+    .orden{
+        order: 2;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .ordendos{
+        order: 1;
+    }
+    .barrita{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    header {
+        padding: 28px 16px;     
+    }
+    .ubicationIcon{
+        display: none;
+    }
+    .ubicationIcondos{
+        display: grid;
+    }
+    
+}
